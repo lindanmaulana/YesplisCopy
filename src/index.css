@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-Sora
+  }
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-ExtraLight.woff2") format("woff2"),
+      url("./assets/font/Sora-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-Bold.woff2") format("woff2"),
+      url("./assets/font/Sora-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-Light.woff2") format("woff2"),
+      url("./assets/font/Sora-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-ExtraBold.woff2") format("woff2"),
+      url("./assets/font/Sora-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-Medium.woff2") format("woff2"),
+      url("./assets/font/Sora-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-Regular.woff2") format("woff2"),
+      url("./assets/font/Sora-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-SemiBold.woff2") format("woff2"),
+      url("./assets/font/Sora-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sora";
+    src: url("./assets/font/Sora-Thin.woff2") format("woff2"),
+      url("./assets/font/Sora-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+}
