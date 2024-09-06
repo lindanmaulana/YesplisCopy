@@ -7,24 +7,24 @@ import useHeaderStore from "../../../../hooks/useHeaderStore";
 const HeaderComponent = () => {
   const { languageComponent } = useHeaderStore();
   return (
-    <header className="sticky top-0 py-5">
+    <header className="sticky top-0 py-5 bg-third">
       <div className="container max-w-6xl">
         <div className="relative flex items-center justify-between">
           <LogoComponent />
           <div className="flex items-center gap-5">
             <ul className="flex items-center gap-7">
-              <li className="text-base font-semibold hover:text-primary">
+              <li className="text-sm font-semibold hover:text-primary">
                 <Link to="/">Tiket Gelang</Link>
               </li>
-              <li className="text-base font-semibold hover:text-primary">
+              <li className="text-sm font-semibold hover:text-primary">
                 <Link to="/">Custom Website</Link>
               </li>
-              <li className="text-base font-semibold hover:text-primary">
+              <li className="text-sm font-semibold hover:text-primary">
                 <Link to="/" className="flex items-center gap-px">
                   <span>Beli Tiket</span> <PiArrowLineUpRightBold />
                 </Link>
               </li>
-              <li className="text-base font-semibold hover:text-primary">
+              <li className="text-sm font-semibold hover:text-primary">
                 <Link to="/" className="flex items-center gap-px">
                   <span>Buat Event</span> <PiArrowLineUpRightBold />
                 </Link>
