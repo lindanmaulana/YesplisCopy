@@ -12,8 +12,8 @@ const AnouncementBar = () => {
           </h2>
           <ul>
             <li className="flex gap-4 text-sm text-third">
-              <Link to="/">Tentang Kami</Link>
-              <Link to="/">Cetak Tiket Gelang</Link>
+              <Link to="/tentang-kami">Tentang Kami</Link>
+              <Link to="/cetak-tiket-gelang">Cetak Tiket Gelang</Link>
               <Link to="/">Customer Service</Link>
             </li>
           </ul>

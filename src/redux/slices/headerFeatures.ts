@@ -1,23 +1,31 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit"
 
 type THeaderFeatures = {
-    language: boolean
+    languageHome: boolean
+    languageComponent: boolean
 }
 
 
 const initialState: THeaderFeatures = {
-    language: false
+    languageHome: false,
+    languageComponent: false
 }
 
 const HeaderFeatures = createSlice({
     name: "Header Features",
     initialState,
     reducers: {
-        handleLanguage: (state, action: PayloadAction) => {
-            state.language = !state.language
+        handleLanguageHome: (state) => {
+            state.languageHome = !state.languageHome
+            state.languageComponent = false
+        },
+        handleLanguageComponent: (state) => {
+            state.languageComponent = !state.languageComponent
+            state.languageHome = false
         }
+
     }
 })
 
-export const {handleLanguage} = HeaderFeatures.actions
+export const {handleLanguageHome, handleLanguageComponent} = HeaderFeatures.actions
 export default HeaderFeatures.reducer

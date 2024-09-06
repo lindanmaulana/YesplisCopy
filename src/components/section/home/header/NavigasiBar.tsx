@@ -3,20 +3,16 @@ import SwitchLanguage from "./SwitchLanguage";
 import { IconAll } from "../../../../assets/icons/Icons";
 import useHeaderStore from "../../../../hooks/useHeaderStore";
 import Button from "../../../button/Index";
+import LogoComponent from "../../../logo/Index";
 
 const NavigasiBar = () => {
-  const { language } = useHeaderStore();
+  const { languageHome } = useHeaderStore();
 
   return (
     <div className="shadow-md bg-third">
       <div className="container max-w-6xl ">
         <div className="flex items-center gap-3 py-5">
-          <h1 className="text-xl font-semibold">
-            <span className="pt-2 rounded-t text-third bg-primary ps-2">
-              LinmI
-            </span>
-            <span className="bg-third text-primary">dShop</span>
-          </h1>
+         <LogoComponent />
           <label className="relative flex items-center w-full">
             <input
               type="text"
@@ -30,7 +26,7 @@ const NavigasiBar = () => {
           <Button styleButton="bg-primary text-third">Daftar</Button>
           <div
             className={`absolute -bottom-[85px] w-56 bg-third px-4 py-3 flex flex-col gap-3 rounded right-56 ${
-              language ? "block" : "hidden"
+              languageHome ? "block" : "hidden"
             }`}
           >
             <button className="flex items-center gap-2">

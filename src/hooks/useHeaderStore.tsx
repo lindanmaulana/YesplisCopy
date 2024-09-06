@@ -3,7 +3,8 @@ import { useSelector } from "react-redux";
 type TStateHome = {
   home: {
     header: {
-      language: boolean;
+      languageHome: boolean;
+      languageComponent: boolean
     };
   };
 };
@@ -12,7 +13,8 @@ const useHeaderStore = () => {
   const selector = useSelector((state: TStateHome) => state.home.header);
 
   return {
-    language: selector.language,
+    languageHome: selector.languageHome,
+    languageComponent: selector.languageComponent
   };
 };
 

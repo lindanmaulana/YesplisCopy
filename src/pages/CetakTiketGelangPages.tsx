@@ -1,10 +1,12 @@
-import React from 'react'
+import HeaderComponent from '../components/section/tentang-kami/header/Index'
+import HeroSection from '../components/section/tentang-kami/hero/Index'
 
 const CetakTiketGelangPages = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <HeaderComponent />
+      <HeroSection />
+    </>
   )
 }
 

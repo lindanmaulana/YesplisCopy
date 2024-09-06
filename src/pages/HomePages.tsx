@@ -6,13 +6,13 @@ import HeroSection from "../components/section/home/hero/Index";
 import Footer from "../components/section/home/footer/Index";
 
 const HomePages = () => {
-  const { language } = useHeaderStore();
+  const { languageHome } = useHeaderStore();
   return (
     <Fragment>
       <Header />
       <main
         className={`${
-          language ? "brightness-50 bg-black/50" : "bg-transparent"
+          languageHome ? "brightness-50 bg-black/50" : "bg-transparent"
         } z-50`}
       >
         <HeroSection />

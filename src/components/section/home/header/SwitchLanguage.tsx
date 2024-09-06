@@ -2,12 +2,13 @@ import { BiChevronDown } from "react-icons/bi";
 import { IconAll } from "../../../../assets/icons/Icons";
 
 import { useDispatch } from "react-redux";
-import { handleLanguage } from "../../../../redux/slices/headerFeatures";
+import { handleLanguageHome } from "../../../../redux/slices/headerFeatures";
+import { appDispatch } from "../../../../redux/store/Store";
 
 const SwitchLanguage = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<appDispatch>();
   const handleSwitchLanguage = () => {
-    dispatch(handleLanguage());
+    dispatch(handleLanguageHome());
   };
 
   return (

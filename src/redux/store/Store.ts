@@ -6,5 +6,5 @@ const store = configureStore({
         home: StoreHome
     }
 })
-
+export type appDispatch = typeof store.dispatch
 export default store
