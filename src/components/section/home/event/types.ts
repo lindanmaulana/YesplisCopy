@@ -36,22 +36,22 @@ export const dataEvents: TEvent[] = [
     location:
       "Stadion dr. H. moch. Soebroto | Stadion dr. H. Moch. Soebroto Kota Magelang, Jalan Tentara Genie Pelajar, South Kramat, Magelang City, Central Java, Indonesia",
     description:
-      "BABAK PENDAHULUAN <br /> PEGADAIAN LIGA 2 2024/2025 <br /> PERSIJAP Jepara vs PERSEKAT Tegal <br /> Minggu , 8 Agustus 2024",
+      "BABAK PENDAHULUAN PEGADAIAN LIGA 2 2024/2025 PERSIJAP Jepara vs PERSEKAT Tegal Minggu , 8 Agustus 2024",
     price: 40000,
   },
-  {
-    id: 3,
-    title: 'SSM EXPO "September Cross Culture"',
-    organized: "SALATIGA SPACE MARKET",
-    image: ImageEvents.ssmExpo,
-    date: "05 September 2024",
-    time: "15:00 WIB",
-    location:
-      "Halaman | Graha Korpri Salatiga, Mangunsari, Salatiga City, Central Java, Indonesia",
-    description:
-      "Hii Lovers 💌💌 Acara ini merupakan sebuah acara musik yang dipadukan dengan berbagai para selling baik makanan ataupun fashion yang membuat kamu selain bisa tampil kece dikonser dan dijamin bakal seru-seruan bersama teman. Kami mempersembahkan Aftershine sebagai Line Up.  Acara ini akan diselenggarakan pada Kamis, 05 September 2024. Jadi, tunggu apalagi? Ajak temanmu, pesan tiketnya dan mari meroket bersama kami🚀🎟️ Pantengin terus media sosial kami lovers !",
-    price: 25000,
-  },
+  // {
+  //   id: 3,
+  //   title: 'SSM EXPO "September Cross Culture"',
+  //   organized: "SALATIGA SPACE MARKET",
+  //   image: ImageEvents.ssmExpo,
+  //   date: "05 September 2024",
+  //   time: "15:00 WIB",
+  //   location:
+  //     "Halaman | Graha Korpri Salatiga, Mangunsari, Salatiga City, Central Java, Indonesia",
+  //   description:
+  //     "Hii Lovers 💌💌 Acara ini merupakan sebuah acara musik yang dipadukan dengan berbagai para selling baik makanan ataupun fashion yang membuat kamu selain bisa tampil kece dikonser dan dijamin bakal seru-seruan bersama teman. Kami mempersembahkan Aftershine sebagai Line Up.  Acara ini akan diselenggarakan pada Kamis, 05 September 2024. Jadi, tunggu apalagi? Ajak temanmu, pesan tiketnya dan mari meroket bersama kami🚀🎟️ Pantengin terus media sosial kami lovers !",
+  //   price: 25000,
+  // },
   {
     id: 4,
     title: "FAMOS 2K24",
@@ -62,7 +62,7 @@ export const dataEvents: TEvent[] = [
     location:
       "SMA NEGERI 19 SURABAYA | Jl. Kedung Cowek No.390, Tanah Kali Kedinding, Kec. Kenjeran, Surabaya, Jawa Timur 60134, Indonesia",
     description:
-      "────୨ৎ─── <br /> 𝐃𝐞𝐚𝐫, 𝐌𝐨𝐬𝐬𝐢𝐜𝐚𝐥𝐬 ִֶָ𓂃 ࣪˖ ִֶָ🦋་༘࿐ <br /> After going through a long process, this cycle has become a part that is awaited and desired. Let it fly while carrying beautiful hopes to build something better. And hewwego❕,",
+      "────୨ৎ─── 𝐃𝐞𝐚𝐫, 𝐌𝐨𝐬𝐬𝐢𝐜𝐚𝐥𝐬 ִֶָ𓂃 ࣪˖ ִֶָ🦋་༘࿐ After going through a long process, this cycle has become a part that is awaited and desired. Let it fly while carrying beautiful hopes to build something better. And hewwego❕,",
     price: 100000,
   },
   {
@@ -75,7 +75,7 @@ export const dataEvents: TEvent[] = [
     location:
       "SMA Negeri 28 Jakarta | Jalan Raya Ragunan No.33, RT.6/RW.7, Jati Padang, South Jakarta City, Jakarta, Indonesia",
     description:
-      "☘️ 𝐓𝐇𝐀𝐋𝐀𝐒𝐒𝐈𝐂 𝐒𝐌𝐀𝐍 𝟐𝟖 𝐉𝐚𝐤𝐚𝐫𝐭𝐚 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐬, <br /> ‎ 🌲 A Kaleidoscopic Stride Into The Verdant Wonders 🪵 ",
+      "☘️ 𝐓𝐇𝐀𝐋𝐀𝐒𝐒𝐈𝐂 𝐒𝐌𝐀𝐍 𝟐𝟖 𝐉𝐚𝐤𝐚𝐫𝐭𝐚 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐬, ‎ 🌲 A Kaleidoscopic Stride Into The Verdant Wonders 🪵 ",
     price: 99000,
   },
   {

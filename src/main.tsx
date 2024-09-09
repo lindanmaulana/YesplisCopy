@@ -13,11 +13,11 @@ import CetakTiketGelangPages from "./pages/CetakTiketGelangPages.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/*",
     element: <HomePages />,
   },
   {
-    path: "/tentang-kami",
+    path: "/tentang-kami/*",
     element: <TentangKamiPages />
   },
   {

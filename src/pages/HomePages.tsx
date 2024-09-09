@@ -1,12 +1,12 @@
 import { Fragment } from "react/jsx-runtime";
-import Header from "../components/section/home/header/Index";
-import useHeaderStore from "../hooks/useHeaderStore";
 import Event from "../components/section/home/event/Index";
-import HeroSection from "../components/section/home/hero/Index";
 import Footer from "../components/section/home/footer/Index";
+import Header from "../components/section/home/header/Index";
+import HeroSection from "../components/section/home/hero/Index";
+import useHomeStore from "../hooks/useHomeStore";
 
 const HomePages = () => {
-  const { languageHome } = useHeaderStore();
+  const { languageHome } = useHomeStore();
   return (
     <Fragment>
       <Header />

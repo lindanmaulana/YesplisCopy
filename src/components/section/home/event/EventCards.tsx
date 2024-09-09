@@ -13,22 +13,28 @@ const EventCards = () => {
         return (
           <Link
             to="/"
-            className="rounded shadow-xl card card-compact bg-base-100"
+            className="overflow-hidden rounded shadow-xl bg-base-100 h-[300px]"
             key={res.id}
           >
-            <figure className="">
+            <figure className="h-3/5">
               <img src={res.image} alt={res.title} />
             </figure>
-            <div className="gap-5 card-body">
-              <div className="flex flex-col gap-1">
-                <h2 className="text-sm font-bold uppercase card-title">
+            <div className="flex flex-col justify-between gap-2 h-2/5">
+              <div className="flex flex-col gap-1 px-3">
+                <h2 className="text-sm font-bold text-[#172029] uppercase ">
                   {res.title}
                 </h2>
-                <h4 className="text-xs font-semibold leading-4">{res.date}</h4>
-                <p className="text-xs truncate">{res.description}</p>
+                <h4 className="text-xs font-medium text-[#172029] ">
+                  {res.date}
+                </h4>
+                <p className="text-xs truncate text-[#828282] font-medium">
+                  {res.description}
+                </p>
               </div>
-              <div className="flex items-center justify-between card-actions ">
-                <h3 className="text-xs">Mulai Dari</h3>
+              <div className="flex items-center justify-between px-3 py-3 border-t">
+                <h3 className="text-xs font-medium text-[#828282]">
+                  Mulai Dari
+                </h3>
                 <h3 className="text-xs font-bold">{idr}</h3>
               </div>
             </div>

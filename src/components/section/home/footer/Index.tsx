@@ -20,7 +20,7 @@ const Footer = () => {
                     <Link
                       to={`${result.url}`}
                       key={result.id}
-                      className={`flex items-center justify-start gap-4 ${result.background} px-4 py-2 rounded text-base font-semibold text-third`}
+                      className={`flex items-center justify-start gap-4 ${result.background} px-4 py-2 rounded text-base font-semibold text-color-third`}
                     >
                       <result.icon />
                       <span>{result.title}</span>

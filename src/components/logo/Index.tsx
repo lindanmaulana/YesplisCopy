@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const LogoComponent = () => {
   return (
-    <h2 className="text-xl font-semibold">
-      <span className="pt-2 rounded-t text-third bg-primary ps-2">LinmI</span>
-      <span className="bg-third text-primary">dShop</span>
-    </h2>
+    <Link to="/" className="text-xl font-bold">
+      <span className="pt-2 rounded-t text-color-third bg-color-primary ps-2">LinmI</span>
+      <span className="bg-third text-color-primary">dShop</span>
+    </Link>
   );
 };
 

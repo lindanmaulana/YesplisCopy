@@ -1,6 +1,7 @@
-import HeaderComponent from '../components/section/tentang-kami/header/Index'
-import HeroSection from '../components/section/tentang-kami/hero/Index'
-import PilihTipeTiketGelang from '../components/section/tentang-kami/pilih-tipe-tiket-gelang/Index'
+import FooterComponent from "../components/footer/Index";
+import HeaderComponent from "../components/header/Index";
+import HeroSection from "../components/section/cetak-tiket-gelang/hero/Index";
+import PilihTipeTiketGelang from "../components/section/cetak-tiket-gelang/pilih-tipe-tiket-gelang/Index";
 
 const CetakTiketGelangPages = () => {
   return (
@@ -8,8 +9,9 @@ const CetakTiketGelangPages = () => {
       <HeaderComponent />
       <HeroSection />
       <PilihTipeTiketGelang />
+      <FooterComponent />
     </>
-  )
-}
+  );
+};
 
-export default CetakTiketGelangPages
+export default CetakTiketGelangPages;
