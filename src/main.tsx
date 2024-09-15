@@ -9,6 +9,7 @@ import 'swiper/css';
 import "swiper/swiper-bundle.css";
 import TentangKamiPages from "./pages/TentangKamiPages.tsx";
 import CetakTiketGelangPages from "./pages/CetakTiketGelangPages.tsx";
+import CustomWebsite from "./pages/CustomWebsite.tsx";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/cetak-tiket-gelang",
     element: <CetakTiketGelangPages />
+  },
+  {
+    path: "/custom-website",
+    element: <CustomWebsite />
   }
 ]);
 

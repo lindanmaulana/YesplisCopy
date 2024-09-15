@@ -14,7 +14,7 @@ const HeaderComponent = () => {
           <div className="flex items-center gap-5">
             <ul className="flex items-center gap-7">
               {dataMenuHeader.map((res) => (
-                <li className="text-sm font-semibold hover:text-primary" key={res.id}>
+                <li className="text-sm font-medium hover:text-primary" key={res.id}>
                   <Link to={res.url} className="flex items-center gap-px">
                   <span>{res.title}</span> {res.icon && <res.icon />}
                 </Link>

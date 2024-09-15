@@ -12,12 +12,12 @@ export const dataMenuHeader: IMenuHeader[] = [
     {
         id: 1,
         title: "Tiket Gelang",
-        url: "/"
+        url: "/cetak-tiket-gelang"
     },
     {
         id: 2,
         title: "Custom Website",
-        url: "/"
+        url: "/custom-website"
     },
     {
         id: 3,
